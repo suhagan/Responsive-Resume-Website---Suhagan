@@ -1,0 +1,65 @@
+[
+    {
+      "period": "Jun'21 - Jul'21",
+      "name": "Programming 1, with C#",
+      "school": "NTI School, Stockholm.",
+      "description": "Gaining knowledge and understanding on basic searching and sorting algorithms, multidimensional arrays and analyzing C++ function to determine its computational complexity.",
+      "tools": "Tools used: Visual Studio Code."
+    },
+    {
+      "period": "2020",
+      "name": "Svenska som andraspråk 2",
+      "school": "Hermods AB, Uppsala.",
+      "description": "Achieved skills to use Swedish as second language in professional level.",
+      "tools": "Tools used: MS Word, MS PowerPoint."
+    },
+    {
+      "period": "2020",
+      "name": "Svenska som andraspråk 3",
+      "school": "Hermods AB, Uppsala.",
+      "description": "Achieved skills to use Swedish as second language in professional level.",
+      "tools": "Tools used: MS Word, MS PowerPoint."
+    },
+    {
+      "period": "2019",
+      "name": "Svenska som andraspråk 1",
+      "school": "Hermods AB, Uppsala.",
+      "description": "Achieved skills to use Swedish as second language in professional level.",
+      "tools": "Tools used: MS Word, MS PowerPoint."
+    },
+    {
+      "period": "2019",
+      "name": "Web Development 1",
+      "school": "Hermods AB, Uppsala",
+      "description": "Achieved knowledge about web development and the web technologies that websites are based on. Also learned to create structure and design with style templates, handle the basics of HTML, JavaScripts and CSS.",
+      "tools": "Tools used: Visual Studio Code, Notepad++."
+    },
+    {
+      "period": "2019",
+      "name": "Web Development 2",
+      "school": "Hermods AB, Uppsala",
+      "description": "Achieved knowledge about web development and the web technologies that websites are based on. Also learned to create structure and design with style templates, handle the basics of HTML, JavaScripts and CSS.",
+      "tools": "Tools used: Visual Studio Code, Notepad++."
+    },
+    {
+      "period": "2018",
+      "name": "Programming Techniques and C",
+      "school": "KTH Royal Institute of Technology, Stockholm.",
+      "description": "Gained knowledge and understanding on basic programming language C, data structures and classes and problem solving through division into subproblems.",
+      "tools": "Tools used: Visual Studio, MS Word."
+    },
+    {
+      "period": "2016 - 2017",
+      "name": "SFINX, Professional Swedish Language program for Engineers SIFA",
+      "school": "Åsö Vuxengymnasium and KTH, Stockholm.",
+      "description": "Achieved knowledge on Swedish language from elementary C to base level 4 and skills to use Swedish as second language in engineering basics.",
+      "tools": "Tools used: MS Word, MS PowerPoint."
+    },
+    {
+      "period": "2014",
+      "name": "English For Higher Studies",
+      "school": "Södertorn Högskola, Stockholm.",
+      "description": "Gained skills to use English for higher studies.",
+      "tools": "Tools used: MS Word, MS PowerPoint."
+    }
+  ]

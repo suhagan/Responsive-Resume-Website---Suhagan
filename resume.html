@@ -35,72 +35,22 @@
       <div class="main">
           
           <div class="information">
-            <h3>Courses</h3><br>
-              <div class="about">
-                <span>Jun'21 - Jul'21</span>
-                  <h4>Programming 1, using C#</h3> 
-                  <p>NTI School, Stockholm. </p>
-                  <p>Gaining knowledge and understanding on basic searching and sorting
-                  algorithms, multidimensional arrays and analyzing C++ function to determine
-                  its computational complexity.
-                  </p>
-                  <p>Tools used: Visual Studio Code.</p><br>
-                
-                <span>2020</span>
-                  <h4>Svenska som andraspråk 2 & 3</h4>
-                  <p>Hermods AB, Uppsala.</p>
-                  <p>Achieved skills to use Swedish as second language in professional level.
-                  </p>
-                  <p>Tools used: MS Word, MS PowerPoint.</p><br>
-                
-                <span>2019</span>
-                  <h4>Svenska som andraspråk 1</h4>
-                  <p>Hermods AB, Uppsala.</p>
-                  <p>Achieved skills to use Swedish as second language in professional level.
-                  </p>
-                  <p>Tools used: MS Word, MS PowerPoint.</p><br>
-                
-                <span>2019</span>
-                  <h4>Web Development 1 & 2</h4>
-                  <p>Hermods AB, Uppsala.</p>
-                  <p>Achieved knowledge about web development and the web technologies that
-                  websites are based on. Also learned to create structure and design with style
-                  templates, handle the basics of HTML, JavaScripts and CSS.</p>
-                  <p>Tools used: Visual Studio Code, Notepad++.</p><br>
-
-                <span>2018</span>
-                  <h4>Programming Techniques and C</h4>
-                  <p>KTH, Stockholm.</p>
-                  <p>Gained knowledge and understanding on basic programming language C,
-                  data structures and classes and problem solving through division into subproblems.</p>
-                  <p>Tools used: Visual Studio, MS Word.</p><br>
-                
-                <span>2016-17</span>
-                  <h3>SFINX, Professional Swedish Language program for Engineers
-                  SIFA</h3>
-                  <p>Åsö Vuxengymnasium and KTH, Stockholm.</p>
-                  <p>Achieved knowledge on Swedish language from elementary C to base level
-                  4 and skills to use Swedish as second language in engineering basics.</p>
-                  <p>Tools used: MS Word, MS PowerPoint.</p><br>
-                  
-                <span>2014</span>
-                  <h4>English For Higher Studies</h4>
-                  <p>Södertorn Högskola, Stockholm. </p> 
-                  <p>Gained skills to use English for higher studies.
-                  </p>
-                  <p>Tools used: MS Word, MS PowerPoint.</p><br>
-
+            <h3 id="h3id">Courses</h3><br>
+            <label for="myCheck" style="font-size:10px">Please click the check box to see my professional courses/uncheck to hide:</label> 
+            <input type="checkbox" id="myCheck" onclick="myCourses()">
+              <div id="course" style="display:none">
+              <!-- read education information from course.json file-->
               </div>
           </div>
       </div>
 
       <div class="side">
         <div class="information">
-          <img height= 200px width= 155px src = "Suhagan.jpeg" alt="">
+          <img height= 200 width= 155 src = "Suhagan.jpeg" alt="">
           <h3>Suhagan</h3>
           <p>Stockholm, Sweden.<br>
           +46 700 86 65 47 <br></p>
-          <a href= "mailto: suhaganmostahid@yahoo.com">suhaganmostahid@yahoo.com</a>
+          <a href= "mailto:suhaganmostahid@yahoo.com">suhaganmostahid@yahoo.com</a>
           <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -149,19 +99,19 @@
           </p><br><br>
 
           <h4>EDUCATION</h4><br>
-          <span>Aug'22 - Cont.</span>
-          <h5>Full-stack Developer .NET, Professional Training</h5>
-          <p><i>Chas Academy, Stockholm, Sweden</i><br>LIA: Looking for. <br>Thesis: Looking for. </p><br>
+          <label for="myCheck" style="font-size:10px">Please click the check box to see my academic details/uncheck to hide:</label> 
+          <input type="checkbox" id="myCheck1" onclick="myEducation()">
+          <div id="education" style="display:none">
+            <!-- read education information from education.json file-->
+          </div>
           
-          <span>2007 - 2011</span>
-          <h5>Electronics & Telecommunications Engineering. B.Sc.</h5>
-          <p><i>University of Development Alternative (UODA), Bangladesh </i><br>Thesis: House Security System</p>
-        
         </div>    
       </div>
           
     </div>
-
+    <script src="education.js"></script>
+    <script src="course.js"></script>
+   
   </body>
 
 </html>
